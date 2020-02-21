@@ -1,0 +1,72 @@
+/* #191716 */
+/* #82a3a1 */
+/* #e8c547 */
+/* #eaf2e3 */
+/* #e2c2c6 */
+
+:root {
+  font-family: "Lucida Console", Monaco, monospace;
+  --color-5: #191716;
+  --color-4: #e8c547;
+  --color-3: #c7e8f3;
+  --color-2: #82a3a1;
+  --color-1: #eaf2e3;
+}
+
+body {
+  background: var(--color-5);
+  color: var(--color-1);
+  overflow: hidden;
+}
+
+#wrapper {
+  height: 100vh;
+}
+
+a {
+  color: var(--color-4);
+  /* text-decoration: none; */
+}
+
+h1 {
+  color: var(--color-2);
+  font-size: 3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+h2 {
+  color: var(--color-3);
+  font-size: 1rem;
+  margin: 1em 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin: 0 0.5rem;
+  font-size: 0.4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50% 0 0 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 1.5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#cw {
+  font-size: 0.5rem;
+}

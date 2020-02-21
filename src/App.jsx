@@ -1,18 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Link } from '@reach/router'
-import { Home } from './components'
+import { Router } from '@reach/router'
+import { Home, Navigation } from './components'
 
 function App() {
   return (
     <React.StrictMode>
-      <div>
-        <header>
-          <Link to="/">Home</Link>
-        </header>
+      <div id='wrapper'>
+        <Navigation />
         <Router>
           <Home path="/" />
         </Router>
+        <footer><p id='cw'>© 2020 | r. lewis</p></footer>
       </div>
     </React.StrictMode>
   )
