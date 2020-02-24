@@ -1,6 +1,7 @@
 body {
-//   padding: 3rem;
-//   line-height: 1.314;
+  padding: 1rem;
+  line-height: 1.314;
+  overflow: hidden;
 }
 
 ::selection{
@@ -8,7 +9,7 @@ body {
 }
 
 .glitch {
-//   min-height: 100vh;
+//   height: 100%;
   background: #252926;
   color: #c3ef8f;
   font-family: Monaco, "Courier New", Courier, monospace;
