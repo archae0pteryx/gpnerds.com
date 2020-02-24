@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom'
 import './assets/glitch.scss'
 import './assets/style.css'
 import './assets/animate.css'
-import Background from './Background'
-import Header from './Header'
+import Background from './components/Background'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    <div className='animated fadeIn slower'>
       <div className="container">
-        <Header />
         <Background />
       </div>
-    </>
+      <Footer />
+    </div>
   )
 }
 

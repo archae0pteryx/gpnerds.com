@@ -1,5 +1,5 @@
 import React from 'react'
-import './assets/bg.css'
+import '../assets/mountains.scss'
 export default function BackGround() {
   return (
     <div className="image image-dark">

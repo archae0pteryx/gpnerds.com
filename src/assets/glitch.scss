@@ -1,19 +1,12 @@
-body {
-  padding: 1rem;
-  line-height: 1.314;
-  overflow: hidden;
-}
+:root {
 
-::selection{
- background: rgba(195, 239, 143, 0.5);
 }
 
 .glitch {
-//   height: 100%;
   background: #252926;
   color: #c3ef8f;
   font-family: Monaco, "Courier New", Courier, monospace;
-  animation: crt 5ms infinite;
+  animation: crt 4s infinite;
   text-shadow:
       0 0 1px #c3ef8f,
       1px 1px 1px blue,
@@ -39,35 +32,18 @@ body {
       z-index: -1;
       content: "";
   }
-
-  h1,h2,h3,h4 {
-      font-weight: 400;
-      color: #c3ef8f;
-  }
-
-  a {
-      color: #c3ef8f;
-    //   background: rgba(195, 239, 143, 0.5);
-      border-color: rgba(195, 239, 143, 0.5);
-      &:hover {
-          border-color: transparent !important;
-      }
-  }
-
 }
 
 .container {
-//   position: relative;
   z-index: 50;
-//   width: 100%;
   height: 100vh;
   *{
       filter: blur(1px);
       animation:
-          5s distort 6s infinite alternate,
-          blur 10ms infinite,
-          flick 20ms infinite,
-          jump 20ms infinite;
+          5s distort 9s infinite alternate,
+          blur 13s infinite,
+          flick 7s infinite,
+          jump 10s infinite;
   }
 }
 

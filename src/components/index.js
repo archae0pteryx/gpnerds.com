@@ -1,5 +1,0 @@
-export { default as Home } from './Home.jsx'
-export { default as Navigation } from './Navigation.jsx'
-export { default as Login } from './Login.jsx'
-export { default as Resume } from './Resume.jsx'
-export { default as Projects } from './Projects.jsx'
