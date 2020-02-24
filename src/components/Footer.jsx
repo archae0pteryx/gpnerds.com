@@ -5,21 +5,21 @@ export default function Header() {
   return (
     <div className="nav-container-absolue">
       <div className="nav-container">
-        <div className="nav-link-container animated fadeInUp">
-          <a className="nav-link" href="https://github.com/archae0pteryx">
+        <a href="https://github.com/archae0pteryx" className="nav-link-container animated fadeInUp">
+          <span className="nav-link">
             Projects
-          </a>
-        </div>
-        <div className="nav-link-container animated fadeInUp delay-1s">
-          <a className="nav-link" href="https://linkedin.com/in/archae0pteryx">
+          </span>
+        </a>
+        <a href="https://linkedin.com/in/archae0pteryx" className="nav-link-container animated fadeInUp delay-1s">
+          <span className="nav-link">
             LinkedIn
-          </a>
-        </div>
-        <div className="nav-link-container animated fadeInUp delay-2s">
-          <a className="nav-link" href="mailto:root@gpnerds.com">
+          </span>
+        </a>
+        <a href="mailto:root@gpnerds.com" className="nav-link-container animated fadeInUp delay-2s">
+          <span className="nav-link" >
             Contact
-          </a>
-        </div>
+          </span>
+        </a>
       </div>
     </div>
   )
