@@ -1,7 +1,3 @@
-:root {
-
-}
-
 .glitch {
   background: #252926;
   color: #c3ef8f;
@@ -37,8 +33,9 @@
 .container {
   z-index: 50;
   height: 100vh;
-  *{
-      filter: blur(1px);
+  width: 100%;
+  * {
+      filter: blur(0.51px);
       animation:
           5s distort 9s infinite alternate,
           blur 13s infinite,
