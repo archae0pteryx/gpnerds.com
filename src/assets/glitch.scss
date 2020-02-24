@@ -1,13 +1,6 @@
 .glitch {
   background: #252926;
-  color: #c3ef8f;
-  font-family: Monaco, "Courier New", Courier, monospace;
   animation: crt 4s infinite;
-  text-shadow:
-      0 0 1px #c3ef8f,
-      1px 1px 1px blue,
-      -1px -1px 1px red;
-
   &::after {
       position: fixed;
       top: 0;
@@ -32,14 +25,14 @@
 
 .container {
   z-index: 50;
-  height: 100vh;
+  height: 98vh;
   width: 100%;
   * {
       filter: blur(0.51px);
       animation:
-          5s distort 9s infinite alternate,
-          blur 13s infinite,
-          flick 7s infinite,
+          3s distort 6s infinite alternate,
+          blur 10s infinite,
+          flick 5s infinite,
           jump 10s infinite;
   }
 }

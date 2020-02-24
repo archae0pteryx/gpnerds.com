@@ -1,0 +1,20 @@
+:root {
+  --rear_highlight: #a5cfe6;
+  --rear_shadow: #7095af;
+  --mid_highlight: #88d1fb;
+  --mid_shadow: #4b6c82;
+  --fore_highlight: #87d5f7;
+  --fore_shadow: #385162;
+  --trees: #253641;
+  --sky-bottom: #a1cde4;
+  --sky-mid: #7eb9d8;
+  --sky-top: #051f33;
+  --fog: #c9dfff;
+  --sun: #6daac2;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: var(--trees);
+  color: var(--fog);
+}

@@ -1,0 +1,10 @@
+.projects-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-card {
+  background-color: black;
+  height: 400px;
+  width: 400px;
+}
