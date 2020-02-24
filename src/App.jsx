@@ -1,26 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router } from '@reach/router'
-import { Home, Navigation, Login, Resume, Projects } from './components'
+import './assets/glitch.scss'
+import './assets/style.css'
+import Background from './Background'
+import Header from './Header'
 
 function App() {
   return (
-    <React.StrictMode>
-      <div id="wrapper">
-        <Navigation />
-        <Router>
-          <Home path="/" />
-          <Login path="/login" />
-          <Resume path="/resume" />
-          <Projects path="/projects" />
-        </Router>
-        <footer>
-          <a href="mailto:root@gpnerds.com" id="cw">
-            @archae0pteryx
-          </a>
-        </footer>
-      </div>
-    </React.StrictMode>
+    <div className='container'>
+      <Header />
+      <Background />
+    </div>
   )
 }
 

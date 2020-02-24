@@ -1,86 +1,15 @@
-/* #191716 */
-/* #82a3a1 */
-/* #e8c547 */
-/* #eaf2e3 */
-/* #e2c2c6 */
-
-:root {
-  font-family: "Lucida Console", Monaco, monospace;
-  --color-5: #191716;
-  --color-4: #e8c547;
-  --color-3: #c7e8f3;
-  --color-2: #82a3a1;
-  --color-1: #eaf2e3;
+.nav-container {
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-body {
-  background: var(--color-5);
-  color: var(--color-1);
-  overflow: hidden;
+.nav-container > h1 {
+  margin: 0.4em;
 }
 
-#wrapper {
-  height: 100vh;
-}
-
-a {
-  color: var(--color-4);
+h1 > a {
   text-decoration: none;
-}
-
-h1 {
-  color: var(--color-2);
-  font-size: 3rem;
-  margin: 3em 0 1em 0;
-}
-
-h2 {
-  color: var(--color-3);
-  font-size: 1rem;
-  animation-duration: 1s;
-  animation-delay: 2s;
-}
-
-header {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-item {
-  padding: 0 0.2rem;
-  font-size: 0.4rem;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form {
-  margin: 3em 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.input {
-  margin: 1em;
-}
-.button {
-  background: var(--color-3);
-}
-footer {
-  position: absolute;
-  bottom: 1.5rem;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-#cw {
-  font-size: 0.5rem;
 }
