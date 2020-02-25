@@ -5,11 +5,11 @@ export default function Header() {
   return (
     <div className="nav-container-absolue">
       <div className="nav-container">
-        <a href="https://github.com/archae0pteryx" className="nav-link-container animated fadeInUp">
+        <Link to='/projects' href="https://github.com/archae0pteryx" className="nav-link-container animated fadeInUp">
           <span className="nav-link">
             Projects
           </span>
-        </a>
+        </Link>
         <a href="https://linkedin.com/in/archae0pteryx" className="nav-link-container animated fadeInUp delay-1s">
           <span className="nav-link">
             LinkedIn
